@@ -29,6 +29,7 @@ cookiecutter https://github.com/kcpevey/cookiecutter-basic-conda.git
 ├── rever.xsh           <- rever config
 ├── setup.cfg           <- setup config
 ├── setup.py            <- makes this project pip installable with `pip install -e`
+│
 ├── conda.recipe
 │   └── meta.yaml       <- environment requirements for the conda recipe
 │
