@@ -1,4 +1,5 @@
 # Basic Conda Package Cookiecutter
+A cookiecutter to generate a very basic conda package including framework for cli, a conda recipe, and auto-release using rever. 
 
 ## Quickstart
 Install the latest Cookiecutter if you haven't installed it yet (this requires Cookiecutter 1.4.0 or higher):
@@ -20,6 +21,7 @@ cookiecutter https://github.com/kcpevey/cookiecutter-basic-conda.git
 * Command line interface using Click (optional)
 
 ## Directory structure
+This cookiecutter package generates the following directory structure:  
 
 ```
 ├── .gitignore          <- file types for git to ignore
@@ -42,6 +44,6 @@ cookiecutter https://github.com/kcpevey/cookiecutter-basic-conda.git
 │   └── cli.py          <- framework for cli
 │
 └── tests
-    ├── __init__.py        <- makes tests a Python module
-    └── test_cli.py        <- basic cli test
+    ├── __init__.py     <- makes tests a Python module
+    └── test_cli.py     <- basic cli test
 ```
